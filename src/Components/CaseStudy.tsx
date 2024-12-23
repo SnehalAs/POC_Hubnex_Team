@@ -7,7 +7,7 @@ const items = [
     tag: "FINANCE",
     title: "What is Ad Exposure and Why It Matters?",
     description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
-    image: "public/business1.svg",
+    image: "public/business1.svg",  
   },
   {
     tag: "BUSINESS",
