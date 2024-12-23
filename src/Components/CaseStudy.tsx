@@ -6,25 +6,25 @@ const items = [
   {
     tag: "FINANCE",
     title: "What is Ad Exposure and Why It Matters?",
-    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
+    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
     image: "public/business1.svg",
   },
   {
     tag: "BUSINESS",
     title: "What is Ad Exposure and Why It Matters?",
-    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
+    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
     image: "public/business1.svg",
   },
   {
     tag: "MARKETING",
     title: "What is Ad Exposure and Why It Matters?",
-    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
+    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
     image: "public/business1.svg",
   },
   {
     tag: "FINANCE",
     title: "What is Ad Exposure and Why It Matters?",
-    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
+    description: "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum.",
     image: "public/business1.svg",
   },
 ];
@@ -71,10 +71,10 @@ const CaseStudy: React.FC = () => {
                     {item.tag}
                   </span>
                   <div className="p-4">
-                    <h3 className="text-lg text-white font-semibold mt-2">
+                    <h3 className="text-2xl text-white font-semibold mt-2">
                       {item.title}
                     </h3>
-                    <p className="text-white text-sm mt-1">
+                    <p className="text-white text-md mt-1">
                       {item.description}
                     </p>
                     <a
