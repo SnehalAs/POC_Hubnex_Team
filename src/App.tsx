@@ -1,11 +1,15 @@
 // import PartnerHero from "./Components/PartnerHero"
 // import GlobeSection from "./Components/GlobeSection"
-import CaseStudy from "./Components/CaseStudy"
+
+import Howto from "./Components/Howto/Howto";
+import Leaders from "./Components/Leaders/Leaders";
+
 
 export default function App() {
   return (
    <>
-   <CaseStudy/>
+   <Howto/>
+   <Leaders/>
    
    </>
   )
