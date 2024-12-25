@@ -64,7 +64,7 @@ const SparklesText: React.FC<SparklesTextProps> = ({
   text,
   colors = { first: "#9E7AFF", second: "#FE8BBB" },
   className,
-  sparklesCount = 10,
+  sparklesCount = 30,
   ...props
 }) => {
   const [sparkles, setSparkles] = useState<Sparkle[]>([]);
@@ -99,7 +99,7 @@ const SparklesText: React.FC<SparklesTextProps> = ({
     };
 
     initializeStars();
-    const interval = setInterval(updateStars, 100);
+    const interval = setInterval(updateStars, 50);
 
     return () => clearInterval(interval);
   }, [colors.first, colors.second]);

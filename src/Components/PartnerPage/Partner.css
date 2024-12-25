@@ -1,0 +1,28 @@
+/* technology */
+.partner-technologies {
+  background-color: #2563ea;
+  padding: 30px;
+  margin-bottom: 2rem;
+}
+.partner-technologies-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.technologies-title {
+  font-size: 30px;
+  margin-bottom: 8rem;
+  color: white;
+}
+
+/* media queries */
+
+@media (max-width: 600px){
+  .technologies-title{
+    display: none !important;;
+  }
+  .technologies-marquee{
+    background-color: antiquewhite;
+    max-width: 100vw;
+  }
+}

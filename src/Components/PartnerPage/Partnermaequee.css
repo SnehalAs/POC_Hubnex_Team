@@ -1,0 +1,12 @@
+.control{
+    background-color:#2563EA;
+    max-width: 800px;
+    max-height: 170px;
+}
+
+@media (max-width: 600px){
+    .control{
+        max-width: 80vw;
+        margin: auto;
+    }
+  }

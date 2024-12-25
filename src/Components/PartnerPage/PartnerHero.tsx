@@ -1,5 +1,5 @@
-import SparklesText from "./ui/sparkles-text";
-import NumberTicker from "./ui/number-ticker";
+import SparklesText from "../ui/sparkles-text";
+import NumberTicker from "../ui/number-ticker";
 const PartnerHero = () => {
   return (
     <section className='flex flex-col items-center p-5'>
@@ -25,10 +25,11 @@ const PartnerHero = () => {
         <div className='flex-1 pr-5 text-left order-2 md:order-1'>
           <SparklesText
             text='Join Your Partner Network'
-            className='text-4xl md:text-6xl md:font-semibold font-medium leading-normal'
+            className='text-4xl md:text-6xl mt-4
+            md:font-semibold font-medium leading-normal'
           />
 
-          <p className='text-xl text-gray-700 my-8'>
+          <p className='text-xl text-gray-700 my-5'>
             Clarity gives you the blocks & components you need to create a truly
             professional website, landing page, or admin panel for your SaaS.
             Clarity gives you the blocks & components you need. Clarity gives
@@ -38,7 +39,7 @@ const PartnerHero = () => {
           <div className='flex gap-6 mt-5'>
             <button
               style={{ border: "1px solid black" }}
-              className='md:px-6 md:py-3 rounded-md text-xl font-normal hover:bg-gray-200 transition'
+              className='md:px-6 md:py-2 rounded-md text-xl font-normal hover:bg-gray-200 transition p-2'
             >
               Contact Us &rarr;
             </button>
