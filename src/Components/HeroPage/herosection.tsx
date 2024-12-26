@@ -1,6 +1,6 @@
 import { FaStar, FaArrowRight } from "react-icons/fa";
-import SparklesText from "@/Components/ui/sparkles-text";
-import NumberTicker from "@/components/ui/number-ticker";
+import SparklesText from "../ui/sparkles-text";
+import NumberTicker from "../ui/number-ticker";
 
 const HeroSection = () => {
   const formattedValue = 5910;
@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <div className="bg-white">
    
-      <div className="container mx-auto px-4 grid gap-8 lg:grid-cols-2 items-center lg:items-start mt-8">
+      <div className="container mx-auto px-4 grid gap-8 lg:grid-cols-2 items-center lg:items-start">
         
       
         <div className="flex justify-center order-1 lg:order-2">
@@ -24,7 +24,7 @@ const HeroSection = () => {
           <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-center lg:text-left">
             <SparklesText
               text="SaaS Growth With Weekly Tips."
-              className="text-2xl sm:text-4xl md:text-4xl lg:text-6xl text-left font-extrabold"
+              className="text-2xl sm:text-2xl md:text-4xl lg:text-6xl text-left sm:whitespace-normal whitespace-nowrap overflow-hidden"
             />
           </h1>
           <p className="text-gray-600 mb-6 text-sm sm:text-base lg:text-lg text-left lg:text-left">
@@ -108,22 +108,22 @@ const HeroSection = () => {
           <img
             src="/assets/companylogo1.svg"
             alt="Logo 1"
-            className="w-28 h-28 object-contain"
+            className="w-40 h-40 object-contain"
           />
           <img
             src="/assets/companylogo2.svg"
             alt="Logo 2"
-            className="w-28 h-28 object-contain"
+            className="w-40 h-40 object-contain"
           />
           <img
             src="/assets/companylogo3.svg"
             alt="Logo 3"
-            className="w-28 h-28 object-contain"
+            className="w-40 h-40 object-contain"
           />
           <img
             src="/assets/companylogo4.svg"
             alt="Logo 4"
-            className="w-28 h-28 object-contain"
+            className="w-40 h-40 object-contain"
           />
         </div>
       </div>
@@ -140,7 +140,7 @@ const HeroSection = () => {
             }
           }
           .animate-marquee {
-            animation: marquee 15s linear infinite;
+            animation: marquee 20s linear infinite;
           }
         `}
       </style>

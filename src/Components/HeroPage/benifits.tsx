@@ -1,5 +1,5 @@
-import RetroGrid from "@/Components/ui/retro-grid";
 import { FaClock, FaUserTie, FaHeadset, FaSmile } from "react-icons/fa";
+import RetroGrid from "../ui/retro-grid";
 
 const Benefits = () => {
   return (
@@ -17,7 +17,7 @@ const Benefits = () => {
             alt="On Time Delivery"
             className="card-image w-full h-auto rounded-lg hidden md:block"
           />
-          <div className="card-content  p-4 bg-black text-white rounded-lg text-left lg:h-[170px]">
+          <div className="card-content  p-4 bg-black text-white  rounded-lg text-left lg:h-[170px]">
             <div className="flex justify-start mb-4 text-white-600 text-3xl">
               <FaClock />
             </div>
@@ -33,7 +33,7 @@ const Benefits = () => {
             <div className="flex justify-start mb-4 text-white-600 text-3xl">
               <FaSmile />
             </div>
-            <h3 className="text-xl mb-2">Dedicated Project Manager</h3>
+            <h3 className="text-xl mb-2 ">Dedicated Project Manager</h3>
             <p className="text-gray-400 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
@@ -43,7 +43,7 @@ const Benefits = () => {
             alt="Project Manager"
             className="card-image w-full h-auto rounded-lg mt-4 hidden md:block"
           />
-          <div className="card-content p-4 bg-black text-white rounded-lg  text-left  lg:h-[240px]">
+          <div className="card-content p-4 bg-black text-white rounded-lg  text-left mt-4 lg:h-[230px]">
             <div className="flex justify-start mb-4 text-white-600 text-3xl">
               <FaUserTie />
             </div>
