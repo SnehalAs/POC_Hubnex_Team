@@ -1,24 +1,24 @@
 /** @format */
-import PartnerHero from "./Components/PartnerPage/PartnerHero";
-import GlobeSection from "./Components/PartnerPage/GlobeSection";
-import PartnerTechnology from "./Components/PartnerPage/PartnerTechnology";
-import PartnerChoose from "./Components/PartnerPage/PartnerChoose";
-import Howto from "./Components/Howto/Howto";
-import Navbar from "./HeroPage/navbar/navbar";
-import PartnerProgram from "./Components/PartnerPage/PartnerProgram";
+import Navbar from "./Components/PartnerPage/navbar";
+import Footer from "./Components/PartnerPage/Footer";
+import PartnerPage from "./Pages/PartnerPage";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 export default function App() {
   return (
     <>
-    <Navbar></Navbar>
-      <PartnerHero></PartnerHero>
-      <GlobeSection></GlobeSection>
-      <PartnerTechnology></PartnerTechnology>
-      <PartnerChoose></PartnerChoose>
-      <Howto></Howto>
-      <PartnerProgram></PartnerProgram>
-      
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/partner' element={<PartnerPage />} />
+      </Routes>
+      <Footer/>
+    </Router>
 
+
+
+      
+      
     </>
   );
 }

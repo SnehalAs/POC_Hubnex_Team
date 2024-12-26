@@ -1,7 +1,3 @@
-
-
-
-
 /** @format */
 
 import RetroGrid from "../ui/retro-grid";
