@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Accomplish = () => {
   return (
-    <div className="bg-gray-100 mt-8">
+    <div className=" mt-8">
       
       <div className="relative bg-gradient-to-r from-black via-gray-800 to-gray-600 text-white rounded-lg max-w-7xl mx-auto p-8 flex flex-col items-center overflow-hidden">
        
