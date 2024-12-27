@@ -4,6 +4,7 @@ import PartnerPage from "./Pages/PartnerPage";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import HeroPage from "./Pages/HeroPage";
 import BlogPage from "./Pages/Blog";
+import CaseStudyPage from "./Pages/CaseStudyPage";
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Navbar/>
       <Routes>
         <Route path="/"  element={<HeroPage/>}/>
+        <Route path="/caseStudy" element={<CaseStudyPage/>} />
         <Route path='/partner' element={<PartnerPage />} />
         <Route path="/blog" element={<BlogPage/>}/>
       </Routes>
