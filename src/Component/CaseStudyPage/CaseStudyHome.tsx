@@ -19,7 +19,7 @@ const CaseStudyHome: React.FC = () => {
                 {/* Image Column */}
                 <div className="flex justify-center order-1 lg:order-2 mt-10 ">
                     <img
-                        src="/public/assets/Frame 21.png"
+                        src="/assets/Frame 21.png"
                         alt="Description of the image"
                         className="rounded-lg shadow-lg max-w-full"
                     />
@@ -38,7 +38,7 @@ const CaseStudyHome: React.FC = () => {
                     <div className="flex flex-wrap justify-center mt-4 space-y-4 md:space-y-0 md:space-x-4">
                         {/* Software */}
                         <div className="flex flex-col items-center p-2 space-y-2 text-center md:flex-row md:space-y-0 md:space-x-2">
-                            <img src="/public/assets/Server.png" alt="User Icon" className="w-12 h-12" />
+                            <img src="/assets/Server.png" alt="User Icon" className="w-12 h-12" />
                             <div>
                                 <h2 className="text-lg font-semibold text-[#064E3B]">Software</h2>
                                 <p className="text-gray-500 text-nowrap">Industry</p>
@@ -47,7 +47,7 @@ const CaseStudyHome: React.FC = () => {
 
                         {/* Cybersecurity Solutions */}
                         <div className="flex flex-col items-center p-2 space-y-2 text-center md:flex-row md:space-y-0 md:space-x-2">
-                            <img src="/public/assets/user.png" alt="User Icon" className="w-12 h-12" />
+                            <img src="/assets/user.png" alt="User Icon" className="w-12 h-12" />
                             <div>
                                 <h2 className="text-lg font-semibold text-[#064E3B]">Cybersecurity Solutions</h2>
                                 <p className="text-gray-500 text-nowrap">Service Provided</p>
@@ -56,7 +56,7 @@ const CaseStudyHome: React.FC = () => {
 
                         {/* Company Size */}
                         <div className="flex flex-col items-center p-2 space-y-2 text-center md:flex-row md:space-y-0 md:space-x-2">
-                            <img src="/public/assets/location.png" alt="Location Icon" className="w-12 h-12" />
+                            <img src="/assets/location.png" alt="Location Icon" className="w-12 h-12" />
                             <div>
                                 <h2 className="text-lg font-semibold text-[#064E3B]">200-500</h2>
                                 <p className="text-gray-500 text-nowrap">Company Size</p>
