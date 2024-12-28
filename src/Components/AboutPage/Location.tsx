@@ -1,4 +1,4 @@
-import React from "react";
+
 import location from "../../../public/Contact-bg.png";
 import india from "../../../public/India.png";
 import uae from "../../../public/icons8-uae-48 (1) 1.png";

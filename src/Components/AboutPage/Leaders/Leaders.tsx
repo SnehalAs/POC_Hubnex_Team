@@ -1,5 +1,5 @@
 import "./Leaders.css";
-import React from "react";
+
 import { GoArrowUpRight } from "react-icons/go";
 
 
