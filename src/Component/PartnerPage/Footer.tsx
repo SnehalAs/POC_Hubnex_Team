@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   FaTwitter,
   FaFacebookF,
@@ -7,9 +8,9 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" text-gray-800">
-
+    <footer className="text-gray-800">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 py-10">
+       
         <div className="space-y-6">
           <div className="flex items-center gap-4">
             <img
@@ -37,15 +38,31 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Quick Links Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Company</h3>
           <ul className="space-y-3 text-gray-700">
-            <li className="hover:text-gray-900 cursor-pointer">About</li>
-            <li className="hover:text-gray-900 cursor-pointer">Services</li>
-            <li className="hover:text-gray-900 cursor-pointer">Careers</li>
-            <li className="hover:text-gray-900 cursor-pointer">For Partners</li>
+          <li className="hover:text-gray-900 cursor-pointer">
+              <Link to="/aboutus">About</Link>
+            </li>
+            <li className="hover:text-gray-900 cursor-pointer">
+              <Link to="/">Services</Link>
+            </li>
+            <li className="hover:text-gray-900 cursor-pointer">
+              <Link to="/">Carrers</Link>
+            </li>
+            
+            <li className="hover:text-gray-900 cursor-pointer">
+              <Link to="/partner">For Partner</Link>
+            </li>
+            
+            
+            <li className="hover:text-gray-900 cursor-pointer">
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
+
         <div>
           <h3 className="text-lg font-semibold mb-4">Help</h3>
           <ul className="space-y-3 text-gray-700">
@@ -61,21 +78,28 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+
+      
         <div>
           <h3 className="text-lg font-semibold mb-4">Resources</h3>
           <ul className="space-y-3 text-gray-700">
-            <li className="hover:text-gray-900 cursor-pointer">Blogs</li>
-            <li className="hover:text-gray-900 cursor-pointer">Case Studies</li>
+          <li className="hover:text-gray-900 cursor-pointer">
+              <Link to="/blog">Blog</Link>
+            </li>
+            
+            <li className="hover:text-gray-900 cursor-pointer">
+              <Link to="/caseStudy">Case Studies</Link>
+            </li>
             <li className="hover:text-gray-900 cursor-pointer">Careers</li>
             <li className="hover:text-gray-900 cursor-pointer">Insights</li>
           </ul>
         </div>
       </div>
 
+      
       <div className="text-center text-sm text-gray-500 border-t border-gray-300 py-4">
         © {new Date().getFullYear()} Hubnex Labs. All rights reserved.
       </div>
-      
     </footer>
   );
 };
