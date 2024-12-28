@@ -1,7 +1,7 @@
 /** @format */
 
 import { cn } from "@/lib/utils";
-import Marquee from "../ui/marquee";
+import Marquee from "../../Components/ui/marquee";
 import "./Partnermaequee.css";
 
 const reviews = [

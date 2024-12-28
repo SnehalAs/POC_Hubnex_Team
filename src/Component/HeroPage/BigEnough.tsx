@@ -1,4 +1,4 @@
-import NumberTicker from "../ui/number-ticker";
+import NumberTicker from "../../Components/ui/number-ticker";
 
 const integrations = Array(4).fill({
   count: 40,

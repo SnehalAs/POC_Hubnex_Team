@@ -1,5 +1,5 @@
 
-import NumberTicker from "../ui/number-ticker";
+import NumberTicker from "../../Components/ui/number-ticker";
 
 const CaseStudyHome: React.FC = () => {
     return (

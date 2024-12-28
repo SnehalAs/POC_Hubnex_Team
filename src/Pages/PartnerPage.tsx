@@ -1,15 +1,15 @@
 /** @format */
 
-import PartnerHero from "@/Components/PartnerPage/PartnerHero";
-import GlobeSection from "@/Components/PartnerPage/GlobeSection";
-import BlogSection from "@/Components/PartnerPage/BlogSection";
-import Howto from "@/Components/PartnerPage/Howto";
-import PartnerNewsletter from "@/Components/PartnerPage/PartnerNewsletter";
-import PartnerProgram from "@/Components/PartnerPage/PartnerProgram";
-import PartnerTechnology from "@/Components/PartnerPage/PartnerTechnology";
-import PartnerChoose from "@/Components/PartnerPage/PartnerChoose";
-import PartnerSlider from "@/Components/PartnerPage/PartnerSlider";
-import PartnerContact from "@/Components/PartnerPage/PartnerContact";
+import PartnerHero from "@/Component/PartnerPage/PartnerHero";
+import GlobeSection from "@/Component/PartnerPage/GlobeSection";
+import BlogSection from "@/Component/PartnerPage/BlogSection";
+import Howto from "@/Component/PartnerPage/Howto";
+import PartnerNewsletter from "@/Component/PartnerPage/PartnerNewsletter";
+import PartnerProgram from "@/Component/PartnerPage/PartnerProgram";
+import PartnerTechnology from "@/Component/PartnerPage/PartnerTechnology";
+import PartnerChoose from "@/Component/PartnerPage/PartnerChoose";
+import PartnerSlider from "@/Component/PartnerPage/PartnerSlider";
+import PartnerContact from "@/Component/PartnerPage/PartnerContact";
 
 const PartnerPage = () => {
   return (

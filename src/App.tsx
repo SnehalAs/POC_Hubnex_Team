@@ -1,5 +1,5 @@
-import Navbar from "./Components/PartnerPage/navbar";
-import Footer from "./Components/PartnerPage/Footer";
+import Navbar from "./Component/PartnerPage/navbar";
+import Footer from "./Component/PartnerPage/Footer";
 import PartnerPage from "./Pages/PartnerPage";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import HeroPage from "./Pages/HeroPage";

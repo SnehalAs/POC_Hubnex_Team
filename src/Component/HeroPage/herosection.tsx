@@ -1,6 +1,6 @@
 import { FaStar, FaArrowRight } from "react-icons/fa";
-import SparklesText from "../ui/sparkles-text";
-import NumberTicker from "../ui/number-ticker";
+import SparklesText from "../../Components/ui/sparkles-text";
+import NumberTicker from "../../Components/ui/number-ticker";
 
 const HeroSection = () => {
   const formattedValue = 5910;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./CaseStudyImpact.css"
-import AnimatedCircularProgressBar from "../ui/animated-circular-progress-bar";
+import AnimatedCircularProgressBar from "../../Components/ui/animated-circular-progress-bar";
 
 const CaseStudyImpact: React.FC = () => {
     const [value1, setValue1] = useState(0);

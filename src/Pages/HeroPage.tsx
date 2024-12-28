@@ -1,12 +1,12 @@
-import Accomplish from "@/Components/HeroPage/Accomplish";
-import Benefits from "@/Components/HeroPage/benifits";
-import BigEnough from "@/Components/HeroPage/BigEnough";
-import BlogSection from "@/Components/HeroPage/BlogSection";
-import CaseStudy from "@/Components/HeroPage/CaseStudy";
-import CTA from "@/Components/HeroPage/CTA";
-import HeroSection from "@/Components/HeroPage/herosection";
-import StatsSection from "@/Components/HeroPage/StatsSection";
-import Testimonial from "@/Components/HeroPage/Testimonial";
+import Accomplish from "@/Component/HeroPage/Accomplish";
+import Benefits from "@/Component/HeroPage/benifits";
+import BigEnough from "@/Component/HeroPage/BigEnough";
+import BlogSection from "@/Component/HeroPage/BlogSection";
+import CaseStudy from "@/Component/HeroPage/CaseStudy";
+import CTA from "@/Component/HeroPage/CTA";
+import HeroSection from "@/Component/HeroPage/herosection";
+import StatsSection from "@/Component/HeroPage/StatsSection";
+import Testimonial from "@/Component/HeroPage/Testimonial";
 
 
 const HeroPage =() =>{

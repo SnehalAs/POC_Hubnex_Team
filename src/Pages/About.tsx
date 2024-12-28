@@ -1,12 +1,12 @@
-import AboutMain from "@/Components/AboutPage/AboutMain";
+import AboutMain from "@/Component/AboutPage/AboutMain";
 
-import Location from "@/Components/AboutPage/Location";
-import Leaders from "@/Components/AboutPage/Leaders/Leaders";
-import StatsSection from "@/Components/HeroPage/StatsSection";
-import Benefits from "@/Components/HeroPage/benifits";
-import Testimonial from "@/Components/HeroPage/Testimonial";
-import CTA from "@/Components/HeroPage/CTA";
-import Accomplish from "@/Components/HeroPage/Accomplish";
+import Location from "@/Component/AboutPage/Location";
+import Leaders from "@/Component/AboutPage/Leaders/Leaders";
+import StatsSection from "@/Component/HeroPage/StatsSection";
+import Benefits from "@/Component/HeroPage/benifits";
+import Testimonial from "@/Component/HeroPage/Testimonial";
+import CTA from "@/Component/HeroPage/CTA";
+import Accomplish from "@/Component/HeroPage/Accomplish";
 
 
 

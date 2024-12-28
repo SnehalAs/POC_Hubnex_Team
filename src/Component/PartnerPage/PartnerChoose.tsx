@@ -1,6 +1,6 @@
 /** @format */
 
-import RetroGrid from "../ui/retro-grid";
+import RetroGrid from "../../Components/ui/retro-grid";
 
 const PartnerChoose = () => {
   return (

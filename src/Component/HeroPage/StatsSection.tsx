@@ -3,7 +3,7 @@ import Globe from "/assets/globe.svg";
 import DailyhuntLogo from "/assets/publish1.svg";
 import TOILogo from "/assets/publish2.svg";
 import HindustanLogo from "/assets/publish3.svg";
-import NumberTicker from "../ui/number-ticker";
+import NumberTicker from "../../Components/ui/number-ticker";
 
 const StatsSection: React.FC = () => {
   return (

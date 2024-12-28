@@ -1,5 +1,5 @@
 import { FaClock, FaUserTie, FaHeadset, FaSmile } from "react-icons/fa";
-import RetroGrid from "../ui/retro-grid";
+import RetroGrid from "../../Components/ui/retro-grid";
 
 const Benefits = () => {
   return (
