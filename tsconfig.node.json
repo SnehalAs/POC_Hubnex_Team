@@ -7,23 +7,23 @@
     "skipLibCheck": true,
     
 
-    /* Bundler mode */
+   
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
 
-    /* Linting */
+    
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  // "include": ["vite.config.ts"],
+  
   "include": [
-    "vite.config.mts",   // Check if the path is correct
+    "vite.config.mts",  
     
   ],
   

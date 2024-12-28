@@ -11,7 +11,7 @@ const StatsSection: React.FC = () => {
       
       <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center lg:ml-16">
        
-        <h1 className="text-2xl lg:text-5xl md:text-4xl font-semibold text-gray-800 mb-4">
+        <h1 className="text-2xl lg:text-5xl md:text-4xl font-semibold text-gray-800 mb-4 ">
           Unleash the full power of <br />
           <span className="block text-gray-800">data</span>
         </h1>
@@ -69,7 +69,7 @@ const StatsSection: React.FC = () => {
       <img
         src={Globe}
         alt="Global presence"
-        className="w-full md:w-2/5 mt-8 md:mt-0 max-w-xs md:max-w-full"
+        className="w-full md:w-2/5 mt-8 md:mt-0 max-w-xs md:max-w-full mb-16"
       />
     </section>
   );
