@@ -7,7 +7,7 @@ import NumberTicker from "../ui/number-ticker";
 
 const StatsSection: React.FC = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center md:items-start justify-between p-6 md:p-16 bg-white border border-gray-200 rounded-lg my-8">
+    <section className="flex flex-col flex-col-reverse md:flex-row items-center md:items-start justify-between p-6 md:p-16 bg-white border border-gray-200 rounded-lg my-8">
       
       <div className="w-full md:w-1/2 text-center md:text-left flex flex-col justify-center lg:ml-16">
        

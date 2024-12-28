@@ -2,6 +2,7 @@ import "./Leaders.css";
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
+
 const Leaders = () => {
   return (
     <div className="Leaders">

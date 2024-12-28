@@ -40,7 +40,7 @@
     width: 400px;
     height: 370px;
   
-    background-image: url(../../../public/leader.png);
+    background-image: url(../../../../public/leader.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
