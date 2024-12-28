@@ -45,8 +45,8 @@ const Testimonial: React.FC = () => {
   return (
     <>
       <div className="text-center my-8">
-        <p className="text-lg text-gray-600">3940+ Happy Hubnex Labs Users</p>
-        <h1 className="text-4xl font-bold text-gray-800 mt-4">
+        <p className="text-lg text-blue-600">3940+ Happy Hubnex Labs Users</p>
+        <h1 className="text-3xl font-bold text-gray-800 mt-4 lg:text-4xl">
           Driving results for leaders across the globe
         </h1>
       </div>
@@ -64,14 +64,14 @@ const Testimonial: React.FC = () => {
           msOverflowStyle: "none",
         }}
       >
-        {/* Slack Testimonial */}
+       
         <div className="flex-shrink-0 w-full flex items-center px-8 py-4">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 flex justify-center items-center mb-4 lg:mb-0">
               <img
                 src="/assets/slack-logo.svg"
                 alt="Slack logo"
-                className="w-full max-w-xs"
+                className="w-40 md:w-48 lg:w-64 xl:w-80"
               />
             </div>
             <div className="flex-1 text-left p-4">
@@ -89,14 +89,13 @@ const Testimonial: React.FC = () => {
           </div>
         </div>
 
-        {/* Facebook Testimonial */}
         <div className="flex-shrink-0 w-full flex items-center px-8 py-4">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 flex justify-center items-center mb-4 lg:mb-0">
               <img
                 src="/assets/facebook.svg"
                 alt="Facebook logo"
-                className="w-full max-w-xs"
+                className="w-40 md:w-48 lg:w-64 xl:w-80"
               />
             </div>
             <div className="flex-1 text-left p-4">
@@ -114,14 +113,14 @@ const Testimonial: React.FC = () => {
           </div>
         </div>
 
-        {/* Google Testimonial */}
+        
         <div className="flex-shrink-0 w-full flex items-center px-8 py-4">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 flex justify-center items-center mb-4 lg:mb-0">
               <img
                 src="/assets/google.svg"
                 alt="Google logo"
-                className="w-full max-w-xs"
+                className="w-40 md:w-48 lg:w-64 xl:w-80"
               />
             </div>
             <div className="flex-1 text-left p-4">
