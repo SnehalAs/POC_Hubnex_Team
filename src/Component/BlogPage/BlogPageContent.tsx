@@ -74,7 +74,7 @@ const BlogPageContent = () => {
           <div className="flex flex-col gap-4 p-5 bg-gradient-to-b from-green-50 to-green-500 rounded-lg max-w-xs lg:ml-52">
             <div className="w-full">
               <img
-                src="public/assets/blogsbanner.svg"
+                src="/assets/blogsbanner.svg"
                 alt="Right Container Image"
                 className="w-full h-auto rounded-lg"
               />
