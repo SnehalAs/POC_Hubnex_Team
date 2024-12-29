@@ -71,7 +71,7 @@ const Location = () => {
           <img
             src={location}
             alt="Location"
-            className="w-full md:w-[90%] h-auto rounded-lg"
+            className="w-[80%] md:w-[70%] h-auto rounded-lg"
           />
         </div>
       </div>
