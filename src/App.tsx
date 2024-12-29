@@ -6,6 +6,7 @@ import HeroPage from "./Pages/HeroPage";
 import BlogPage from "./Pages/Blog";
 import CaseStudyPage from "./Pages/CaseStudyPage";
 import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path='/partner' element={<PartnerPage />} />
         <Route path="/aboutus" element={<About/>}/>
         <Route path="/blog" element={<BlogPage/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
     </Router>
