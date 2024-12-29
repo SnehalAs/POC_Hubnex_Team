@@ -5,7 +5,7 @@ const ContactForm = () => {
       <section className="flex flex-col items-center justify-center p-4 md:flex-row">
         {/* Left Section */}
         <div className="md:block w-72 mb-8 md:mb-0 lg:mr-72 ">
-          <img src="/public/Frame 583.png" alt="" className="w-full" />
+          <img src="/Frame 583.png" alt="" className="w-full" />
         </div>
   
         {/* Form Section */}
