@@ -5,8 +5,8 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Leaders = () => {
   return (
-    <div className="Leaders">
-       <div className="heading-leader">
+    <div className="Leaders ">
+       <div className="heading-leader ">
        <h1>Meet the leaders driving it all</h1>
        <h3>Spearheading a team of 250+ Xpanders committed to delivering exceptional tech solutions</h3>
         </div> 
