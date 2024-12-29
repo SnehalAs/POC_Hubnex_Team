@@ -5,9 +5,17 @@ import {
   FaInstagram,
   FaGithub,
 } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Footer = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
+
     <footer className="text-gray-800">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 py-10">
        
