@@ -1,5 +1,35 @@
-.circular-progress{
+/* .circular-progress{
     max-width: 8vw !important;
     max-height: 14vh;
  
+} */
+
+.circular-progress {
+ 
+    width: 60px; 
+    height: 60px;
+}
+
+
+@media (min-width: 640px) {
+    .circular-progress {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .circular-progress {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .circular-progress {
+        width: 85px;
+        height: 85px;
+    }
 }

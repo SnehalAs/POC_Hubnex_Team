@@ -102,7 +102,7 @@ const CaseStudyImpact: React.FC = () => {
                 </div>
                
 
-                <div className="flex items-center justify-between gap-4 my-8">
+                <div className=" flex items-center justify-between gap-4 my-8">
                     <div className=" flex relative p-4">
 
                     <AnimatedCircularProgressBar
