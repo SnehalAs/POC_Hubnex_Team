@@ -37,7 +37,7 @@ const AboutMain = () => {
       </div>
       <div className="text-center py-16">
         <div className="text-container">
-          <h1 className="text-4xl font-semibold leading-[59px] lg:w-[1070px] mx-auto px-4">
+          <h1 className="text-5xl font-semibold leading-[59px] lg:w-[1250px] mx-auto px-4">
             We’re empowering businesses with the technology they need to lead
             change and innovate in a business landscape that waits for no one.
           </h1>
