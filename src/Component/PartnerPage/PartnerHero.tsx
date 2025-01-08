@@ -2,8 +2,8 @@ import SparklesText from "../../Components/ui/sparkles-text";
 import NumberTicker from "../../Components/ui/number-ticker";
 const PartnerHero = () => {
   return (
-    <section className='flex flex-col items-center p-5'>
-      <div className='absolute left-8 md:left-16 flex text-gray-600 text-base'>
+    <section className='flex flex-col items-center p-5 w-[85%] container mx-auto'>
+      <div className='md:ml-4 flex text-gray-600 text-base w[85%] container mx-auto'>
         <a href='#' className='text-black'>
           Home
         </a>

@@ -40,7 +40,7 @@ const CaseStudy: React.FC = () => {
   const scrollNext = () => emblaApi && emblaApi.scrollNext();
 
   return (
-    <section className="bg-gradient-to-b from-blue-800 to-black py-16">
+    <section className="bg-gradient-to-b from-blue-800 to-black py-16 w-full mx-auto">
       <div className="text-center text-white">
         <h1 className="text-4xl font-bold mb-4">Case Study</h1>
         <p className="text-lg sm:text-xl mb-6 mx-4 sm:mx-8 lg:mx-48">

@@ -22,7 +22,7 @@ const PartnerPage = () => {
       <PartnerProgram></PartnerProgram>
       <PartnerSlider></PartnerSlider>
       <PartnerNewsletter></PartnerNewsletter>
-      <BlogSection></BlogSection> 
+      <BlogSection></BlogSection>
       <PartnerContact></PartnerContact>
     </>
   );

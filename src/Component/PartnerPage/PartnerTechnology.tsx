@@ -2,6 +2,7 @@
 
 import PartnerMarquee from "./PartnerMarquee";
 import "./Partner.css";
+import { div } from "framer-motion/client";
 
 const PartnerTechnology = () => {
   return (

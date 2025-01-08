@@ -19,8 +19,8 @@ const Navbar = () => {
   ];
 
   return (
-    <header className='w-full'>
-      <div className='flex justify-end items-center gap-4 py-2 px-4 text-md font-bold mr-16 mt-4 mb-2 min-w-[100vw]'>
+    <header className='w-full container mx-auto'>
+      <div className='flex justify-end items-center gap-4 py-2 px-4 text-md font-bold mr-16 mt-4 mb-2 w-full container mx-auto'>
         {topLinks.map(({ text, href }) => (
           <div key={text} className='flex items-center gap-2'>
             <a
@@ -39,7 +39,7 @@ const Navbar = () => {
 
       <div className='border-t border-black w-90'></div>
 
-      <div className='flex justify-between items-center py-4 px-4 lg:px-12'>
+      <div className='flex justify-between items-center py-4 px-4 lg:px-12 '>
         <img
           src='/assets/hubnexlogo.svg'
           alt='Hubnex Logo'

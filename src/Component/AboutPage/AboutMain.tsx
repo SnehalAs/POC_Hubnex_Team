@@ -29,8 +29,8 @@ const AboutMain = () => {
   }, [count2]);
 
   return (
-    <div className="h-screen sm:h-[80vh]">
-      <div className="flex items-center gap-2  pl-24 sm:pl-16 xs:pl-8">
+    <div className="h-screen sm:h-[80vh] w-full container mx-auto">
+      <div className="flex items-center gap-2  pl-24 sm:pl-16 xs:pl-8 w-full container mx-auto">
         <a href="#" className="text-gray-600 text-sm font-normal">Home</a>
         <IoIosArrowForward />
         <a href="#" className="text-black text-sm font-semibold">About Us</a>

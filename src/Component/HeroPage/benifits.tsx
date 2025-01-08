@@ -3,10 +3,10 @@ import RetroGrid from "../../Components/ui/retro-grid";
 
 const Benefits = () => {
   return (
-    <div className="benefits-container px-4 py-8 md:px-8 md:py-12 bg-white text-center font-sans">
+    <div className="benefits-container w-full container mx-auto px-4 py-8 md:px-8 md:py-12 bg-white text-center font-sans">
       <RetroGrid />
 
-      <h1 className="benefits-title text-xl sm:text-2xl md:text-4xl font-bold text-black mb-14 mt-10">
+      <h1 className="benefits-title sm:text-2xl md:text-5xl font-semibold text-black mb-14 mt-10">
         Benefits to Join Hubnex Labs
       </h1>
 

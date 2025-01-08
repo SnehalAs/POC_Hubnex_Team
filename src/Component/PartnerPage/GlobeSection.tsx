@@ -4,7 +4,7 @@ import NumberTicker from "../../Components/ui/number-ticker";
 
 const GlobeSection = () => {
   return (
-    <section className='flex flex-col md:flex-row items-center justify-between px-8 py-16 md:py-32 md:px-32'>
+    <section className='flex container w-full mx-auto  flex-col md:flex-row items-center justify-between px-8 py-16 md:py-32 md:px-32 mb-20'>
       <div className='order-1 mb-5 md:order-2 w-full'>
         <img
           src='/globe (2).png'
