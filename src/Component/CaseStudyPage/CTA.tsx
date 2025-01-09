@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const CTA: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-indigo-600 to-purple-400 rounded-lg shadow-lg p-4 sm:p-6 my-8">
+    <div className="bg-gradient-to-r from-indigo-600 to-purple-400 rounded-lg shadow-lg p-4 sm:p-6 my-8 w-[100%] container mx-auto">
       <div className="flex items-center justify-between gap-4">
       
         <div className="flex items-center gap-4">

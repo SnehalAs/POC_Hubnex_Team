@@ -44,7 +44,7 @@ const CaseStudyImpact: React.FC = () => {
     }, []);
 
     return (
-        <div className="p-10 m-8 pt-2">
+        <div className="p-10 m-8 pt-2 w-[85%] container mx-auto">
             <div className="w-full bg-white-100">
                 <h2 className="text-3xl font-semibold">
                     Impact

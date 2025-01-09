@@ -4,7 +4,7 @@ import NumberTicker from "../../Components/ui/number-ticker";
 const CaseStudyHome: React.FC = () => {
     return (
         
-        <div className="p-4 md:p-10 m-8">
+        <div className="p-4 md:p-10 m-8 w-[85%] container mx-auto">
             {/* Breadcrumb */}
             <div className="flex flex-wrap items-center space-x-2 md:space-x-4 p-4 bg-white-100">
                 <div className="text-gray-600 cursor-pointer">Home <span className="ml-1">&gt;</span></div>
@@ -35,7 +35,7 @@ const CaseStudyHome: React.FC = () => {
                     </p>
 
                     {/* Information Columns */}
-                    <div className="flex flex-wrap justify-center mt-4 space-y-4 md:space-y-0 md:space-x-4">
+                    <div className="flex justify-center mt-4 space-y-4 md:space-y-0 md:space-x-4">
                         {/* Software */}
                         <div className="flex flex-col items-center p-2 space-y-2 text-center md:flex-row md:space-y-0 md:space-x-2">
                             <img src="/assets/Server.png" alt="User Icon" className="w-12 h-12" />
