@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const CaseStudyContact = () => {
   return (
-    <div className="mt-8 w-[85%] container mx-auto">
+    <div className="mt-8 w-[90%] container mx-auto">
       {/* Upper Section */}
       <div className="bg-gradient-to-r from-black via-gray-700 to-gray-600 max-w-[80vw] mx-auto h-40 text-white flex flex-col justify-center items-center rounded-lg">
         <h1 className="text-xl font-bold text-center md:text-3xl">

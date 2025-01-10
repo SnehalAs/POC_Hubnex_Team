@@ -1,7 +1,7 @@
 
 const CaseBusinessChallenge: React.FC = () => {
     return (
-        <div className="p-10 m-8 pt-2 w-[85%] container mx-auto">
+        <div className="p-10 m-4 md:mt-8 pt-2 w-[90%] container mx-auto">
             <div className="w-full bg-white-100">
                 <h1 className="text-3xl font-semibold ">
                     Business Challenge
